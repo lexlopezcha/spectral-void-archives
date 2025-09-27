@@ -1,3 +1,5 @@
+import israelImage from "@/assets/israel.jpg";
+import leeImage from "@/assets/lee2.png";
 export const TeamProfiles = () => {
   return (
     <section className="py-20 bg-gradient-card">
@@ -12,9 +14,14 @@ export const TeamProfiles = () => {
           {/* Israel Fernandez */}
           <div className="bg-card rounded-2xl p-8 border border-border hover-glow transition-glow">
             <div className="text-center mb-8">
-              <div className="w-32 h-32 bg-gradient-glow rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold text-primary-foreground glow-primary-lg">
+              {/* <div className="w-32 h-32 bg-gradient-glow rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold text-primary-foreground glow-primary-lg">
                 IF
-              </div>
+              </div> */}
+              <img
+                src={israelImage}
+                alt="Israel Fernandez"
+                className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-primary/50 glow-primary-lg"
+              />
               <h3 className="text-3xl font-bold mb-2 text-primary">Israel Fernandez</h3>
               <p className="text-xl text-muted-foreground">VSL Expert, Copywriter, Marketing Consultant</p>
             </div>
@@ -66,9 +73,14 @@ export const TeamProfiles = () => {
           {/* Lee Thompson */}
           <div className="bg-card rounded-2xl p-8 border border-border hover-glow transition-glow">
             <div className="text-center mb-8">
-              <div className="w-32 h-32 bg-gradient-glow rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold text-primary-foreground glow-primary-lg">
+              {/* <div className="w-32 h-32 bg-gradient-glow rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold text-primary-foreground glow-primary-lg">
                 LT
-              </div>
+              </div> */}
+              <img
+                src={leeImage}
+                alt="Lee Thompson"
+                className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-primary/50 glow-primary-lg"
+              />
               <h3 className="text-3xl font-bold mb-2 text-primary">Lee Thompson</h3>
               <p className="text-xl text-muted-foreground">Marketing Fixer</p>
             </div>

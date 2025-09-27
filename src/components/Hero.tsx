@@ -24,7 +24,22 @@ export const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <div className="text-sm uppercase tracking-wider text-primary-glow mb-4 animate-glow-pulse">
-              From Lee Thompson & Israel Fernandez
+              Ad Arcadia Home Page
+            </div>
+            <div className="text-2xl md:text-4xl font-light mb-8 text-muted-foreground">
+              Video Sales Letters That <br/>
+              <span className="text-primary text-glow">Actually Work.</span> Imagine That.
+              
+            </div>
+            <div>
+               <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+              From the Beautiful Blue Eyes of Lee Thompson, and the Lady-Killer Smile of Israel Fernandez…
+            </p>
+            </div>
+            <div>
+               <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Welcome To…
+            </p>
             </div>
             
             <h1 className="text-6xl md:text-8xl font-bold mb-6 text-glow font-orbitron">
@@ -32,18 +47,16 @@ export const Hero = () => {
                 ADARCADIA
               </span>
             </h1>
-            
-            <div className="text-2xl md:text-4xl font-light mb-8 text-muted-foreground">
-              Video Sales Letters That <span className="text-primary text-glow">Actually Work</span>.
-              <br />
-              <span className="text-lg md:text-xl italic">Imagine That.</span>
+               <div>
+               <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+              And if you’re here, you probably already know who sent you.
+            </p>
             </div>
+
           </div>
           
           <div className="mb-12">
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              And if you're here, you probably already know who sent you.
-            </p>
+           
             
             <Button 
               variant="glow"

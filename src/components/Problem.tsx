@@ -4,11 +4,12 @@ export const Problem = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-8 text-glow">
-            Most VSLs Are <span className="text-destructive">Absolute Garbage</span>.
+            Most VSLs Are <br/> <span className="text-destructive">Absolute</span> Garbage.
           </h2>
           
           <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
-            And by "absolute garbage", we mean… they're as enjoyable as getting a root canal done.
+            And by "absolute garbage", we mean… 
+            <br/> ...They're as enjoyable as getting a root canal done.
             <br />
             But not just because we're trying to sell you on "hey write my VSL and create my funnel" and all that.
           </p>
@@ -22,23 +23,36 @@ export const Problem = () => {
               <span className="text-primary font-semibold">$2 billion in sales</span> — found that:
             </p>
             
-            <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="grid md:grid-cols-4 gap-8 mb-8">
               <div className="bg-gradient-primary p-6 rounded-xl border border-primary/20">
+                <div className="text-sm text-muted-foreground">The average conversion rate across <strong>all</strong> VSLs</div>
+
                 <div className="text-3xl font-bold text-destructive mb-2">1.21%</div>
-                <div className="text-sm text-muted-foreground">Average conversion rate across all VSLs</div>
                 <div className="text-xs text-muted-foreground mt-2 italic">
-                  (98.79% pull an Irish Goodbye)
+                  (Translation: 98.79% of people pull an Irish Goodbye on you.)
                 </div>
               </div>
               
               <div className="bg-gradient-primary p-6 rounded-xl border border-primary/20">
+                <div className="text-sm text-muted-foreground">Only</div>
+
                 <div className="text-3xl font-bold text-destructive mb-2">35%</div>
                 <div className="text-sm text-muted-foreground">Make it past the 2-minute mark</div>
               </div>
               
               <div className="bg-gradient-primary p-6 rounded-xl border border-primary/20">
+                <div className="text-sm text-muted-foreground">Only</div>
+
                 <div className="text-3xl font-bold text-destructive mb-2">22%</div>
                 <div className="text-sm text-muted-foreground">Even make it to the CTA</div>
+              </div>
+
+              <div className="bg-gradient-primary p-6 rounded-xl border border-primary/20">
+                <div className="text-sm text-muted-foreground"> And if your CTA drops too late</div>
+                <div className="text-sm text-muted-foreground"> (say, around 79% in), </div>
+
+
+                <div className="text-xl font-bold text-destructive mb-2">your conversions tank.</div>
               </div>
             </div>
             
@@ -53,6 +67,9 @@ export const Problem = () => {
             </p>
             <p className="text-2xl font-semibold text-destructive mb-6">
               …Your VSL is going to be a walking corpse.
+            </p>
+            <p className="mb-6">
+              Meaning:
             </p>
             <p>
               They either lull you to sleep, scream like a used car ad, or spend 4 minutes reminding you that 
