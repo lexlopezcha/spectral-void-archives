@@ -3,7 +3,7 @@ export const Problem = () => {
     <section className="py-20 bg-gradient-card relative">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-6xl font-bold mb-8 text-glow">
+          <h2 className="text-3xl md:text-6xl font-bold mb-8 text-glow">
             Most VSLs Are <br/> <span className="text-destructive">Absolute</span> Garbage.
           </h2>
           

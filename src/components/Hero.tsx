@@ -42,7 +42,7 @@ export const Hero = () => {
             </p>
             </div>
             
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 text-glow font-orbitron">
+            <h1 className="text-5xl md:text-8xl font-bold mb-6 text-glow font-orbitron">
               <span className="bg-gradient-glow bg-clip-text text-transparent">
                 ADARCADIA
               </span>

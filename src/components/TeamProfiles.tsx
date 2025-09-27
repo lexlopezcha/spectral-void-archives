@@ -5,7 +5,7 @@ export const TeamProfiles = () => {
     <section className="py-20 bg-gradient-card">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-glow">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-glow">
             Meet The Brains Behind The <span className="text-primary">Funnies</span>
           </h2>
         </div>
@@ -23,6 +23,7 @@ export const TeamProfiles = () => {
                 className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-primary/50 glow-primary-lg"
               />
               <h3 className="text-3xl font-bold mb-2 text-primary">Israel Fernandez</h3>
+              {/* <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary">Israel Fernandez</h3> */}
               <p className="text-xl text-muted-foreground">VSL Expert, Copywriter, Marketing Consultant</p>
             </div>
             
